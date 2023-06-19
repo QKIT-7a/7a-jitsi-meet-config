@@ -1,0 +1,93 @@
+item({
+	{
+		"{\"event\":\"features/breakout-rooms/update\",\"roomCounter\":1,\"type\":\"breakout_rooms\",\"rooms\":{\"test\":{\"participants\":{\"test@muc.meet.jitsi/957d0f7e\":{\"role\":\"moderator\",\"jid\":\"haidang@meet.jitsi/gn7DmbOL2aCf\",\"displayName\":\"dang\"}},\"isMainRoom\":true,\"jid\":\"test@muc.meet.jitsi\",\"id\":\"test\"},\"5be1ce11-10f6-490b-9ab5-958116d5edde\":{\"participants\":{},\"jid\":\"5be1ce11-10f6-490b-9ab5-958116d5edde@breakout.meet.jitsi\",\"name\":\"Breakout room #1\",\"id\":\"5be1ce11-10f6-490b-9ab5-958116d5edde\"}}}";
+		["attr"] = {
+			["xmlns"] = "http://jitsi.org/jitmeet";
+		};
+		["name"] = "json-message";
+	};
+	{
+		["attr"] = {
+			["from"] = "haidang@meet.jitsi";
+			["xmlns"] = "urn:xmpp:delay";
+			["stamp"] = "2023-06-13T07:33:27Z";
+		};
+		["name"] = "delay";
+	};
+	["with"] = "";
+	["key"] = "mPbXVNnVtGcQZsi4Bj6LX9gY";
+	["name"] = "message";
+	["attr"] = {
+		["to"] = "haidang@meet.jitsi/gn7DmbOL2aCf";
+		["stamp"] = "2023-06-13T07:33:30Z";
+		["from"] = "breakout.meet.jitsi";
+	};
+	["when"] = 1686641610;
+});
+item({
+	{
+		"{\"type\":\"breakout_rooms\",\"event\":\"features/breakout-rooms/update\",\"roomCounter\":3,\"rooms\":{\"e28dea16-8ac3-4e83-9288-10d90bab278c\":{\"name\":\"Breakout room #3\",\"jid\":\"e28dea16-8ac3-4e83-9288-10d90bab278c@breakout.meet.jitsi\",\"participants\":{},\"id\":\"e28dea16-8ac3-4e83-9288-10d90bab278c\"},\"unlikelycomplexesimpresssomewhere\":{\"participants\":{\"unlikelycomplexesimpresssomewhere@muc.meet.jitsi/48f858c2\":{\"role\":\"moderator\",\"jid\":\"haidang@meet.jitsi/5cFPBuYIbl7_\",\"displayName\":\"thao\"}},\"jid\":\"unlikelycomplexesimpresssomewhere@muc.meet.jitsi\",\"isMainRoom\":true,\"id\":\"unlikelycomplexesimpresssomewhere\"},\"e1426437-7a29-4529-8dd0-83e1158f6d41\":{\"name\":\"Breakout room #1\",\"jid\":\"e1426437-7a29-4529-8dd0-83e1158f6d41@breakout.meet.jitsi\",\"participants\":{},\"id\":\"e1426437-7a29-4529-8dd0-83e1158f6d41\"}}}";
+		["attr"] = {
+			["xmlns"] = "http://jitsi.org/jitmeet";
+		};
+		["name"] = "json-message";
+	};
+	{
+		["attr"] = {
+			["stamp"] = "2023-06-14T09:42:06Z";
+			["from"] = "haidang@meet.jitsi";
+			["xmlns"] = "urn:xmpp:delay";
+		};
+		["name"] = "delay";
+	};
+	["attr"] = {
+		["stamp"] = "2023-06-14T09:42:07Z";
+		["from"] = "breakout.meet.jitsi";
+		["to"] = "haidang@meet.jitsi/5cFPBuYIbl7_";
+	};
+	["name"] = "message";
+	["with"] = "";
+	["key"] = "Df5lwZb9_YyDxxxCIlaBAMfi";
+	["when"] = 1686735727;
+});
+item({
+	{
+		"{\"type\":\"LOBBY_CHAT_MESSAGE\",\"message\":\"hu a u\"}";
+		["attr"] = {
+			["xmlns"] = "http://jitsi.org/jitmeet";
+		};
+		["name"] = "json-message";
+	};
+	{
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/muc#user";
+		};
+		["name"] = "x";
+	};
+	{
+		["attr"] = {
+			["id"] = "5kZDkmQnns4mPIw3lJcUTIYRShEJGLPdPbYqZHXNpbQ=";
+			["xmlns"] = "urn:xmpp:occupant-id:0";
+		};
+		["name"] = "occupant-id";
+	};
+	{
+		["attr"] = {
+			["stamp"] = "2023-06-14T09:48:21Z";
+			["from"] = "haidang@meet.jitsi";
+			["xmlns"] = "urn:xmpp:delay";
+		};
+		["name"] = "delay";
+	};
+	["attr"] = {
+		["type"] = "chat";
+		["from"] = "variablelandscapesthriveblindly@lobby.meet.jitsi/0cd3bdca";
+		["to"] = "haidang@meet.jitsi/AjY5STvQcdbv";
+		["xml:lang"] = "en";
+		["stamp"] = "2023-06-14T09:48:45Z";
+	};
+	["name"] = "message";
+	["with"] = "";
+	["key"] = "mmZ9eAEbq9MK2beq0n9vx1OH";
+	["when"] = 1686736125;
+});
